@@ -27,7 +27,7 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
     
     (If you don't need brightness control, you need to remove **module/brightnessctl** inside `~/.config/polybar/config.ini`)
 
-**Full command:** `sudo pacman -S bspwm sxhkd nitrogen alacritty noto-fonts ttf-font-awesome picom fish brightnessctl`
+**Full command:** `sudo pacman -S bspwm sxhkd nitrogen alacritty noto-fonts ttf-font-awesome picom fish brightnessctl rofi`
 
 # How to install
 - **Clone this repo:** `git clone https://github.com/keidowisu/ThornPrincessDot.git`
