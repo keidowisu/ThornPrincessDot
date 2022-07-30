@@ -1,5 +1,5 @@
 #!/bin/sh
-
+xsetroot -cursor_name left_ptr
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
