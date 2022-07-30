@@ -14,7 +14,8 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
+  WINIT_X11_SCALE_FACTOR: "1.5"
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
@@ -47,7 +48,7 @@ window:
   # by DPI and the specified value is always added at both opposing sides.
   padding:
     x: 15
-    y: 5
+    y: 10
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
