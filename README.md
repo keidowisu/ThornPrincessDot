@@ -36,7 +36,7 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
 - **Enter the cloned repo:** `cd ThornPrincessDot`
 - **Run the shell script**: `sh install.sh`
 - Enter the Xorg environtment using `xstart` or lightDM
-- **Remove the fish shell greeting:** `set -U fish_greeting`
+- **Remove the fish shell greeting:** `set -U fish_greeting ""`
 - **If you are getting X cursor on the desktop install:** `xorg-xsetroot`
 - If you are using wired network, You need to configure **module/wlan** inside `~/.config/polybar/config.ini` after installation.
 # Wallpaper
