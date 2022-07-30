@@ -20,6 +20,8 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
     `sudo pacman -S picom`
 - **fish** as terminal prompt.
     `sudo pacman -S fish`
+- **polybar** as system bar.
+    `sudo pacman -S polybar`
 - **rofi** as launcher.
     `sudo pacman -S rofi`
 - **brightnessctl** is required for brightness control inside polybar.
@@ -27,7 +29,7 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
     
     (If you don't need brightness control, you need to remove **module/brightnessctl** inside `~/.config/polybar/config.ini`)
 
-**Full command:** `sudo pacman -S bspwm sxhkd nitrogen alacritty noto-fonts ttf-font-awesome picom fish brightnessctl rofi`
+**Full command:** `sudo pacman -S bspwm sxhkd nitrogen alacritty noto-fonts ttf-font-awesome picom fish brightnessctl rofi polybar`
 
 # How to install
 - **Clone this repo:** `git clone https://github.com/keidowisu/ThornPrincessDot.git`

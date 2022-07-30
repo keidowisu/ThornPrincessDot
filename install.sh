@@ -8,6 +8,15 @@ mkdir ~/.config/bspwm
 cp -v ./bspwmrc ~/.config/bspwm
 cd ..
 
+#alacritty
+cd ./alacritty
+mkdir ~/.config/alacritty
+cp -v ./alacritty.yml ~/.config/alacritty
+cd ..
+
+#picom
+cp -v ./picom.conf ~/.config
+
 #sxhkd
 cd ./sxhkd
 mkdir ~/.config/sxhkd
@@ -38,6 +47,7 @@ else
     mkdir "$_rofi/userconfig/"
     mv "$_rofi/config.rasi" "$_rofi/userconfig/"
 fi
+
 
 cp -r "$PWD"/.config/rofi/* "$_rofi"
 cp -r "$PWD"/.local/share/rofi/themes/* "$_theme"
