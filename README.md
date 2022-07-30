@@ -1,4 +1,5 @@
 # Thorn Princess Dotfiles
+![Yor Wallpaper](https://github.com/keidowisu/ThornPrincessDot/blob/main/Wallpapers/Wallpaper-Transparent.png?raw=true)
 This is my first linux rice! also, my first arch install. Please don't judge my messy dotfiles ;-;
 
 # Required Packages
@@ -33,7 +34,6 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
 - Enter the Xorg environtment using `xstart` or lightDM
 - If you are using wired network, You need to configure **module/wlan** inside `~/.config/polybar/config.ini` after installation.
 # Wallpaper
-![Yor Wallpaper](https://github.com/keidowisu/ThornPrincessDot/blob/main/Wallpapers/Wallpaper-Transparent.png?raw=true)
 - **Background Color:** `#0F0C0B`
 - [Download here](https://github.com/keidowisu/ThornPrincessDot/tree/main/Wallpapers)
 - Set it using **nitrogen**
