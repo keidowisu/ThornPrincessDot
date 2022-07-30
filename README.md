@@ -20,6 +20,8 @@ This is my first linux rice! also, my first arch install. Please don't judge my 
     `sudo pacman -S picom`
 - **fish** as terminal prompt.
     `sudo pacman -S fish`
+- **rofi** as launcher.
+    `sudo pacman -S rofi`
 - **brightnessctl** is required for brightness control inside polybar.
     `sudo pacman -S brightnessctl`
     
